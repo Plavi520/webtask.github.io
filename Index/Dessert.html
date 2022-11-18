@@ -1,0 +1,364 @@
+<html>
+<head>
+<title>Veg-Meals</title>
+<style>
+*
+{
+padding:0px;
+margin:0px;
+}
+body
+{
+background-color:black;
+font-family:san-serif;
+}
+.bck1
+{
+width:90%;
+height:auto;
+border:1px solid white;
+margin-left:5%;
+background-color:white;
+}
+
+.bck
+{
+width:100%;
+height:50px;
+background-color:brown;
+margin-top:70px;
+}
+
+.Logo
+{
+width:140px;;
+height:140px;
+border:2px solid white;
+border-radius:50%;
+margin-left:40px;
+margin-top:-50px;
+float:left;
+}
+.Logo img
+{
+width:100%;
+}
+
+
+.Menu ul
+{
+list-style:none;
+}
+.Menu ul li
+{
+width:90px;
+height:40px;
+background-color:brown;
+float:right;
+text-align:center;
+line-height:50px;
+position:relative;
+font-size:16px;
+}
+.Menu ul li a
+{
+text-decoration:none;
+color:yellow;
+display:block;
+}
+.Menu ul li a:hover
+{
+background-color:white;
+color:brown;
+}
+.Menu ul ul
+{
+display:none;
+}
+.Menu ul li:hover>ul
+{
+display:block;
+}
+.Menu ul ul ul
+{
+margin-left:90px;
+position:absolute;
+top:0px;
+}
+.head
+{
+border:2px solid brown;
+background-color:brown;
+width:220px;
+height:40px;
+margin-top:40px;
+margin-left:20px;
+border-radius:20px;
+
+}
+.head h1
+{
+text-align:center;
+color:white;
+}
+.Dessert1
+{
+width:90%;
+height:1300px;
+border:1px solid white;
+background-image:url("Dessert-Bck1.jpg");
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+margin-left:5%;
+margin-top:100px;
+border-radius:50px;
+}
+.Cake-image
+{
+width:200px;
+height:200px;
+border:2px solid brown;
+margin-left:43px;
+margin-top:70px;
+border-top-left-radius:50%;
+border-top-right-radius:50%;
+float:left;
+}
+.Cake-image img
+{
+width:100%;
+height:200px;
+border-top-left-radius:50%;
+border-top-right-radius:50%;
+}
+.Cake-image button
+{
+width:200px;
+height:40px;
+border:2px solid brown;
+background-color:brown;
+border-radius:5px;
+margin-top:10px;
+font-size:18px;
+position:relative;
+color:white;
+}
+.Cake-image button:hover
+{
+border:2px solid brown;
+background-color:white;
+color:brown;
+}
+
+.Dessert2
+{
+width:90%;
+height:1000px;
+border:1px solid white;
+background-image:url("Dessert-Bck2.jpg");
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+margin-left:5%;
+margin-top:100px;
+border-radius:50px;
+}
+
+.head1
+{
+border:2px solid brown;
+background-color:brown;
+width:400px;
+height:40px;
+margin-top:40px;
+margin-left:20px;
+border-radius:20px;
+}
+.head1 h1
+{
+text-align:center;
+color:white;
+}
+
+
+.Pudding-image
+{
+width:200px;
+height:200px;
+border:2px solid brown;
+margin-left:43px;
+margin-top:70px;
+border-top-left-radius:50%;
+border-top-right-radius:50%;
+float:left;
+}
+.Pudding-image img
+{
+width:100%;
+height:200px;
+border-top-left-radius:50%;
+border-top-right-radius:50%;
+}
+.Pudding-image button
+{
+width:200px;
+height:40px;
+border:2px solid brown;
+background-color:brown;
+border-radius:5px;
+margin-top:10px;
+font-size:18px;
+position:relative;
+color:white;
+}
+.Pudding-image button:hover
+{
+border:2px solid brown;
+background-color:white;
+color:brown;
+}
+
+.Dessert3
+{
+width:90%;
+height:1000px;
+border:1px solid white;
+background-image:url("Dessert-Bck3.jpg");
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+margin-left:5%;
+margin-top:100px;
+border-radius:50px;
+}
+.Ice-Cream
+{
+width:200px;
+height:200px;
+border:2px solid brown;
+margin-left:43px;
+margin-top:70px;
+border-top-left-radius:50%;
+border-top-right-radius:50%;
+float:left;
+}
+.Ice-Cream img
+{
+width:100%;
+height:200px;
+border-top-left-radius:50%;
+border-top-right-radius:50%;
+}
+.Ice-Cream button
+{
+width:200px;
+height:40px;
+border:2px solid brown;
+background-color:brown;
+border-radius:5px;
+margin-top:10px;
+font-size:18px;
+position:relative;
+color:white;
+}
+.Ice-Cream button:hover
+{
+border:2px solid brown;
+background-color:white;
+color:brown;
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="bck1">
+
+<div class="bck">
+<div class="Logo"><img src="Logo2.png"></div>
+
+<div class="Menu">
+<ul>
+<li><a href="Contact.html">Contact</a></li>
+<li><a href="Gallery.html">Gallery</a></li>
+
+<li><a href="">Menus &nbsp; *</a>
+
+<ul>
+<li><a href="Breakfast.html">Breakfast</a></li>
+<li><a href="Drinks.html">Drinks</a></li>
+
+<li><a href="#">Meals&nbsp; *</a>
+<ul>
+<li><a href="Veg.html">Veg</a></li>
+<li><a href="Non-veg.html">Non-Veg</a></li>
+</ul></li>
+
+<li><a href="Dessert.html">Desserts</a></li>
+</ul></li>
+
+
+<li><a href="About.html">About</li>
+<li><a href="Home.html">Home</a></li>
+</ul>
+</div>
+</div>
+
+
+<div class="Dessert1">
+<div class="head"><h1>Cakes</h1></div>
+<div class="Cake-image"><img src="black-forest-cake.jpg"><button>Black-Forest</button></div>
+<div class="Cake-image"><img src="Black-Velvet-Cake.jpg"><button>Black-Velvet</button></div>
+<div class="Cake-image"><img src="blueberry.jpg"><button>Blueberry</button></div>
+<div class="Cake-image"><img src="butterscotch.jpg"><button>ButterScotch</button></div>
+<div class="Cake-image"><img src="CherryBlossom.jpg"><button>CherryBlossom</button></div>
+<div class="Cake-image"><img src="chocolate.jpg"><button>Chocolate</button></div>
+<div class="Cake-image"><img src="kit-kate-cake.jpg"><button>kit-kate-cake</button></div>
+<div class="Cake-image"><img src="Lemon-cheesecake.jpg"><button>Lemon-cheese-Cake</button></div>
+<div class="Cake-image"><img src="Mango.jpg"><button>Mango-Cake</button></div>
+<div class="Cake-image"><img src="RABDI-PISTA-CAKE.jpg"><button>Rabdi-Pista</button></div>
+<div class="Cake-image"><img src="Red Velvet.jpg"><button>Red Velvet</button></div>
+<div class="Cake-image"><img src="Seasonal-Fresh-Fruit-Cake.jpg"><button>Fresh-Fruit-Cake</button></div>
+<div class="Cake-image"><img src="Strawberry-Crunch-cake.jpg"><button>Strawberry-Crunch</button></div>
+<div class="Cake-image"><img src="Matcha.jpg"><button>Matcha-Cake</button></div>
+<div class="Cake-image"><img src="Cupcakes.jpg"><button>Cup-Cakes</button></div>
+<div class="Cake-image"><img src="Pan cakes.jpg"><button>Pan-Cakes</button></div>
+</div>
+
+<div class="Dessert2">
+<div class="head1"><h1>Pudding/Custard/Falooda</h1></div>
+<div class="Pudding-image"><img src="Chocolate-pudding.jpg"><button>Chocolate-Pudding</button></div>
+<div class="Pudding-image"><img src="Mango-Pudding.jpg"><button>Mango-Pudding</button></div>
+<div class="Pudding-image"><img src="Strawberry-Pudding.jpg"><button>Strawberry-Pudding</button></div>
+<div class="Pudding-image"><img src="jelly.jpg"><button>Jelly-Pudding</button></div>
+<div class="Pudding-image"><img src="Coconut-Custard.jpg"><button>Coconut-Custard</button></div>
+<div class="Pudding-image"><img src="Dry-Fruit-Custard.jpg"><button>Dry-Fruit-Custard</button></div>
+<div class="Pudding-image"><img src="Fruit-Custard.jpg"><button>Fruit-Custard</button></div>
+<div class="Pudding-image"><img src="Caramel-Custard.jpg"><button>Caramel-Custard</button></div>
+<div class="Pudding-image"><img src="Mango-Falooda.jpg"><button>Mango-Falooda</button></div>
+<div class="Pudding-image"><img src="Pista-Falooda.jpg"><button>Pista-Falooda</button></div>
+<div class="Pudding-image"><img src="Strawberry-Falooda.jpg"><button>Strawberry-Falooda</button></div>
+</div>
+
+<div class="Dessert3">
+<div class="head"><h1>ICE-Creams</h1></div>
+<div class="Ice-Cream"><img src="Gadbad.jpg"><button>Gadbad</button></div>
+<div class="Ice-Cream"><img src="Parfait.jpg"><button>Parfait</button></div>
+<div class="Ice-Cream"><img src="Tiramisu.jpg"><button>Tiramisu</button></div>
+<div class="Ice-Cream"><img src="Dilkush.jpg"><button>Dilkush</button></div>
+<div class="Ice-Cream"><img src="American Choconut.jpg"><button>American Choconut</button></div>
+<div class="Ice-Cream"><img src="Chocolate-Coconut.jpg"><button>Chocolate-Coconut</button></div>
+<div class="Ice-Cream"><img src="Banana Split.jpg"><button>Banana Split</button></div>
+<div class="Ice-Cream"><img src="Duet.jpg"><button>Duet</button></div>
+<div class="Ice-Cream"><img src="Fruit-Salad1.jpg"><button>Fruit Salad Ice Cream</button></div>
+<div class="Ice-Cream"><img src="Dry-Fruit-Salad.jpg"><button>Dry-Fruit-Salad Ice Cream</button></div>
+</div>
+
+
+<br/><br/><br/><br/>
+</div>
+</body>
+</html>
